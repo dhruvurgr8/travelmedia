@@ -15,7 +15,7 @@ const ShowProduct = ({ product }) => {
       <div className="card">
         <img
           height={280}
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMd7VcYrop0opW5_9Gyq1MKU1D7UVBZIAPFA&usqp=CAU"
+          src="https://picsum.photos/200?random=$%7Bpost.id%7D"
         />
         <h3 className="title">{product.title}</h3>
         <div className="btn-para-wrapper">
