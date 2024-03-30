@@ -1,10 +1,11 @@
 import React from "react";
 import "./nav.css";
+import Group from "./Group.jpg";
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <span>Travelmedia.in</span>
-      <img src="" alt="media" />
+      <img className="nav-image" src={Group} alt="media" />
     </nav>
   );
 };

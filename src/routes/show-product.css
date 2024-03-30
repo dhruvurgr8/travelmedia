@@ -30,6 +30,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   margin-top: 30px;
   justify-items: center;
+  gap: 20px;
 }
 .btn-para-wrapper p a {
   color: #f2672c;
