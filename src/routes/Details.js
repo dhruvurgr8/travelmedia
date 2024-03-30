@@ -4,7 +4,7 @@ import "./details.css";
 import { useSelector } from "react-redux";
 const Details = () => {
   const navigate = useNavigate();
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(true);
   const { id } = useParams();
   const products = useSelector((state) => state.data);
   const filterdPost = products && products.filter((post) => post.id == id);

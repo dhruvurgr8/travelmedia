@@ -25,7 +25,7 @@ const ShowProduct = ({ product }) => {
             {!isTrunc && <a onClick={toggleReadMore}>Read less</a>}
           </p>
           <div onClick={navigateToDetails}>
-            <i class="fa-solid fa-arrow-right"></i>
+            <i className="fa-solid fa-arrow-right"></i>
           </div>
         </div>
       </div>
