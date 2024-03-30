@@ -6,7 +6,7 @@ import Details from "./Details";
 const RoutesManager = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Layout>
           <Routes>
             <Route path="" Component={Home} />
